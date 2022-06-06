@@ -7,7 +7,6 @@
     "google-libphonenumber": "^3.2.27",
     "graphql": "^16.5.0",
     "lodash-es": "^4.17.21",
-    "moment": "^2.29.3",
     "react-datepicker": "^4.8.0",
     "react-hook-form": "^7.31.3"
   },
