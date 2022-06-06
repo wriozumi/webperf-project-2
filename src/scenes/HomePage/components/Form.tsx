@@ -108,3 +108,5 @@ export const Form = () => {
     </section>
   );
 };
+
+export default Form
