@@ -1,6 +1,8 @@
 import { lazy } from "react";
 
-export const Hero = lazy(() => import("./Hero"));
+import Hero from './Hero';
+
+export { Hero };
 
 export * from "./Section";
 export * from "./Form";
