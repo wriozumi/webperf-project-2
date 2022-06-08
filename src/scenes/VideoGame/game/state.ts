@@ -88,5 +88,5 @@ export function killAllEntities(state: GameState) {
  * Clean up all "dead" entities from the game state.
  */
 export function removeDeadEntities(state: GameState) {
-  state.entities = state.entities.filter((e) => !!e.dead)
+  return state.entities.filter((e) => !!e.dead)
 }
