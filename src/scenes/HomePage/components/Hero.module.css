@@ -1,5 +1,6 @@
 .container {
     position: relative;
+    contain: content;
 }
 
 .container::after {
@@ -17,6 +18,7 @@
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
+    contain: content;
 }
 
 .center {

@@ -2,6 +2,7 @@
     border: 2px solid #eee;
     border-radius: 10px;
     padding: 20px;
+    contain: content;
 }
 
 .title {
@@ -24,4 +25,5 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    contain: content;
 }
