@@ -94,7 +94,9 @@
 }
 
 .entity {
+  contain: strict;
   position: absolute;
+  will-change: transform;
 }
 
 .entityShot {
