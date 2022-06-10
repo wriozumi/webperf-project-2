@@ -274,7 +274,7 @@ function checkEndLevel(state: GameState) {
   state.enemySpawns = createLevel(state.level);
   state.enemyCount = state.enemySpawns.length;
   if (state.levelBgEl) {
-    state.levelBgEl.style.backgroundColor = levelBackgrounds[state.level];
+    state.levelBgEl.style.opacity = levelBackgrounds[state.level];
   }
 
   // Or end the game.
